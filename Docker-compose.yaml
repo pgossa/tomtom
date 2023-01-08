@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  tomtom:
+    build: .
+    dockerfile: build/Dockerfile
+    ports:
+      - 8080:8080
+
